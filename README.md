@@ -41,6 +41,10 @@ The system is a finite state machine with five states: `SLEEP`, `LOCKED`, `ENTER
 | Keypad rows | `GP2`, `GP3`, `GP4`, `GP5` |
 | Keypad columns | `GP6`, `GP7`, `GP8`, `GP9` |
 
+
+### Simulation
+![](simulation.jpg)
+
 ### Known Limitations / Security Notes
 
 * The master PIN is hardcoded in flash (`MASTER_PIN`) and not encrypted or configurable at runtime — anyone with physical/USB access to the board can read it out of the binary.
