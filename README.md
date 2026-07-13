@@ -29,7 +29,6 @@ The system is a finite state machine with five states: `SLEEP`, `LOCKED`, `ENTER
 | 2x LEDs (red + green) + resistors | Status indication |
 
 ### Pinout
-![](simulation.jpg)
 
 | Signal | GPIO |
 | :--- | :--- |
